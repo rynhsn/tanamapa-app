@@ -27,7 +27,8 @@ function getBlynk(token) {
 		type: 'get',
 		dataType: 'json',
 		success: function (data) {
-			var ph = (-0.0693 * data) + 7.3855;
+			// var ph = (-0.0693 * data) + 7.3855;
+			var ph = (-0.0279 * data) + 7.7761;
 			$('#ph').val(parseFloat(ph).toFixed(2));
 		}
 	});

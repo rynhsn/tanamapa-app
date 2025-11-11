@@ -70,7 +70,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
-$active_group = 'default';
+$active_group = 'webhost';
 $query_builder = TRUE;
 
 $db['default'] = array(
@@ -98,10 +98,10 @@ $db['default'] = array(
 
 $db['webhost'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'id18581237_root',
-	'password' => '<mS5Nzql(yk8Je_6',
-	'database' => 'id18581237_tanamapa_app',
+	'hostname' => 'sql300.byethost11.com',
+	'username' => 'b11_40387147',
+	'password' => '@Doraemon15101998',
+	'database' => 'b11_40387147_tanamapa_app',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
